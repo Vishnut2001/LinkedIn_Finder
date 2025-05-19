@@ -19,6 +19,8 @@ This project automates the process of finding LinkedIn profiles using names, des
 
 ### Dependencies
 * selenium
+  
+* Streamlit
 
 * webdriver_manager
 
