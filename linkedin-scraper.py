@@ -16,7 +16,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 # Set page configuration
 st.set_page_config(
-    page_title="LinkedIn Profile Scraper",
+    page_title="LinkedIn Profile Finder",
     page_icon="🔍",
     layout="wide",
     initial_sidebar_state="expanded"
