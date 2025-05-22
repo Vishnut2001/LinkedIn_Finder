@@ -123,7 +123,7 @@ def setup_driver():
             driver.set_page_load_timeout(30)
             return driver
         except Exception as e:
-            st.error(f"Error setting up driver: {str(e)}")i
+            st.error(f"Error setting up driver: {str(e)}")
             return None
 
 def check_for_captcha(driver):
