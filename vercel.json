@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "linkedin-scraper.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "linkedin-scraper.py"
+    }
+  ]
+}
